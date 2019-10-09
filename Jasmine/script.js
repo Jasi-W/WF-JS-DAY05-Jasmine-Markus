@@ -200,9 +200,8 @@ bookKey.Books.forEach(function(Books) {
 	list1.appendChild(img1);
 	list1.appendChild(p1);
 	
-	if(Books.read == true) {
-		var element = document.getElementById("item");
-		element.classList.add("read");
+	if(Books.read == "true") {
+		list1.classList.add("read");
 	}
 })
 
