@@ -56,7 +56,18 @@ li { margin-left: 20px; }
 	opacity: 0.6;
 }
 
+#grid {
+	display: grid;
+	grid-template-rows: 40px 5px 40px repeat(6, 60px);
+	grid-template-columns: repeat(5, 60px);
+	border: thin solid red;
+	
+	grid-template-areas: 
+	"head1 head1 number1 number1 number1"
+	"line line line line line"
+	"head2 head2 head2 number2 number2";
+}
 
-
-
-
+.grid-item {
+	background-color: black;
+}
