@@ -3,17 +3,17 @@
 <html lang="en">
 	<head>
 		<title>Titel der Website</title>
-		<meta name="author" content="Jasmine">
-		<meta name="describtion" content="kurze Beschreibung!">
+		<meta name="author" content="JasiW">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="style.css">
-		<script language="javascript" type="text/javascript" src="script.js"></script>
+		<script defer language="javascript" type="text/javascript" src="script.js"></script>
+
 	</head>
 
 	<body>
 		<header>
-			<h1>JS DAY 04 | JSON</h1>
+			<h1>Javascript DAY04 | JSON</h1>
 		</header>
 		
 		<h1>Basic</h1>
@@ -24,23 +24,65 @@
 		var fries = { "fries_size": "Large French Fries", "calories": "570" };
 		</p>
 		
+		<p>
 		print the following message within the browser:<br>
 		My favorite burger is a Hamburger which has approximately 260 calories, 
-		along with it I enjoy eating Large French Fries which have about 570 calories.</p>
+		along with it I enjoy eating Large French Fries which have about 570 calories.
+		</p>
 		
-		<h3>Solution:</h3><br>
-		
+		<h2>SOLUTION</h2>
+		<p id="exercise_1"></p>
 		
 		<hr>
 		<h1>Intermediate</h1>
-		<p></p>
+		<p>Create a JSON schema which contains the following details per employee:</p>
+		
+		<p>
+			<li>Unique ID</li>
+			<li>First Name</li>
+			<li>Last Name</li>
+			<li>Email address</li>
+			<li>Job Title</li>
+			<li>Salary</li>
+		</p>
+
+		<p>
+			Fill the schema with meaningful data for 10 Employees. 
+			Print each employee's details in a table which will look representative 
+			and easily readable for the management team.		
+		</p>
+		
+		<h2>SOLUTION</h2>
+		<p id="exercise_2"></p>
+		
+		<div id="table_employees">
+		</div>
 		
 		<hr>
 		<h1>Advanced</h1>
 		<p></p>
 		
+		<h2>Book List</h2>
+		<p>Create an external JSON file that will contain the data( e.g.)</p>
+		<p>{ 'title': 'Javascript for Dummies',<br>
+		'author': 'Dummy Dumb Dumb',<br>
+		'read': 'false'<br>
+		} </p>
+		
+		<p>
+		Iterate through the array of books. For each book, create a &lt;p&gt element 
+		with the book title and author and append it to the page.
+		Use an unordered list to display the books.
+		Each book should have an image cover.
+		Change the style of the book depending on whether you have read it or not.
+		</p>
+		<h2>SOLUTION</h2>
+		
+		<ul id="bookslist" class="item">
+		</ul>
+		
 		<hr>
 		<h1>Advanced Extra</h1>
-		
+
 	</body>
 </html>
