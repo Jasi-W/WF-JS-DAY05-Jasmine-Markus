@@ -53,8 +53,7 @@ li { margin-left: 20px; }
 #bookslist li p { font-size: 1.2em; }
 
 .read {
-	background-color: gray;
-	opactiy: 0.8em;
+	opacity: 0.6;
 }
 
 
