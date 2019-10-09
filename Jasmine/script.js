@@ -167,7 +167,7 @@ var bookKey = {"Books": [
 	{
 	'title': 'Javascript for Dummies',
 	'author': 'X',
-	'read': 'false',
+	'read': 'true',
 	"source": "img/001.jpg"
 	},
 
@@ -200,9 +200,9 @@ bookKey.Books.forEach(function(Books) {
 	list1.appendChild(img1);
 	list1.appendChild(p1);
 	
-	if(Books.read == "true") {
-		Books.getElementById('bookslist').className = "read";
+	if(Books.read == true) {
+		var element = document.getElementById("item");
+		element.classList.add("read");
 	}
-	
 })
 

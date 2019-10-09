@@ -37,20 +37,20 @@ td { padding: 10px; border: 1px solid lightgray; }
 li { margin-left: 20px; }
 
 
-.item {
+#bookslist {
 	width: 30%;
 	list-style: none;
 	text-align: center;
 }
 
-.item li {
+#bookslist li {
 	margin: 20px;
 	padding: 10px;
 	box-shadow: 0px 0px 10px darkgrey;
 }
 
-.item li img { width: 100%; }
-.item li p { font-size: 1.2em; }
+#bookslist li img { width: 100%; }
+#bookslist li p { font-size: 1.2em; }
 
 .read {
 	background-color: gray;
